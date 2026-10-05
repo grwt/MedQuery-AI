@@ -1,12 +1,4 @@
-# 📅 AI Medical Assistant Chatbot — RAG-based Application
-
-![Medical Assistant Thumbnail](./assets/medicalAssistant.png)
-
-> 🎥 **Watch the full project walkthrough:** [YouTube Video](https://youtu.be/BOhKnkrr4Yc)
->
-> 🗂️ **Architecture PDF:** [View Architecture](./assets/MedicalAssistant.pdf)
-
----
+# 📅 MEDQUERY-AI ( Medical Assistant Chatbot ) — RAG-based Application
 
 ## 🧠 Project Overview
 
@@ -32,11 +24,7 @@ Retrieved Docs
      RAG Chain (Groq + LangChain)
    ↓
 LLM-generated Answer
-```
 
-For a detailed view, refer to the **[MedicalAssistant.pdf](./assets/MedicalAssistant.pdf)**
-
----
 
 ## 📚 Features
 
@@ -175,24 +163,6 @@ $ uv pip install -r requirements.txt
 # Run the server
 $ streamlit run app.py
 ```
-
----
-
-## 🌐 Deployment
-
-- Hosted on [Render](https://render.com)
-- Configure `start command` as:
-
-  ```bash
-  uvicorn main:app --host 0.0.0.0 --port 10000
-  ```
-
----
-
-## 🌟 Credits
-
-- Built by Supratim Nag
-- Inspired by LangChain, Groq, Pinecone, and FastAPI ecosystems
 
 ---
 
